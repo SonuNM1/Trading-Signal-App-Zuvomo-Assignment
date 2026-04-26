@@ -15,7 +15,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://trading-signal-zuvomo-frontend.netlify.app/', 
+  'https://trading-signal-zuvomo-frontend.netlify.app', 
 ];
 
 app.use(cors({
